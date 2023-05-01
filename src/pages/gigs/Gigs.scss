@@ -1,0 +1,97 @@
+.gigs{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+        gap: 15px;
+
+        .path{
+        
+        }
+        h2{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 10px;
+            color: gray;
+        }
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            .left{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+                h3{
+                    color: gray;
+                    font-size: 10px;
+                    font-weight: 400;
+                }
+                input{
+                    border: 1px solid lightgray;
+                    width: 100px;
+                    outline: none;
+                    padding: 1px 10px;
+                }
+                button{
+                    background-color: #1dbf73;
+                    color: white;
+                    font-size: 10px;
+                    font-weight: 500;
+                    border: none;
+                    cursor: pointer;
+                    padding: 2px 10px;
+                    border-radius: 2px;
+                }
+            }
+            .right{
+                display: flex;  
+                gap: 10px;
+                align-items: center;
+                position: relative;
+                img{
+                    width:20px;
+                    height: 20px;
+                }
+                .sortBy{
+                    font-weight: 300;
+                }
+                .sortType{
+                    font-weight: 500;
+                    color: black;
+                    min-width: 90px;
+                }
+                .rightmenu{
+                    padding: 5px 10px;
+                    gap: 5px;
+                    background-color: white;
+                    border-radius: 5px;
+                    border: .5px solid lightgray;
+                    position: absolute;
+                    top: 20px;
+                    right: 0;
+                    display: flex;
+                    flex-direction: column; 
+                    color: #555;
+                    span{
+                        cursor: pointer;
+                        min-width: 100px;
+                        display: flex;
+                    }
+                }
+
+            }
+ 
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+    }
+}
